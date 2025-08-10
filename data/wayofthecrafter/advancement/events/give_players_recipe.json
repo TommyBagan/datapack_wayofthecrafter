@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "give_player_manual_recipe": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                }
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "wayofthecrafter:crafting_manual"
+        ]
+    },
+    "sends_telemetry_event": false
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "use_crafting_manual": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "music_disc_5",
+                    "components": {
+                        "custom_data": {
+                            "actual_id": "crafting_manual"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "wayofthecrafter:mechanics/use_crafting_manual"
+    },
+    "sends_telemetry_event": false
+}
