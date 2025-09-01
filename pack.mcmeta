@@ -1,6 +1,10 @@
 {
   "pack": {
-    "description": "Way of the Crafter Datapack, which simply lets the player craft a book to give themselves all crafting recipes.",
-    "pack_format": 81
+    "description": "Way of the Crafter",
+    "pack_format": 81,
+    "supported_formats": {
+      "min_inclusive": 71,
+      "max_inclusive": 81
+    }
   }
 }
